@@ -3,3 +3,6 @@ line-length = 88
 
 [tool.pylint]
 disable = "R0902"
+
+[tool.flake8]
+disable = "E501"
