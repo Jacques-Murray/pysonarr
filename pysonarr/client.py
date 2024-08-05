@@ -58,3 +58,6 @@ class SonarrClient:
         Make a DELETE request to the Sonarr API
         """
         return self._request("DELETE", path, **kwargs)
+
+
+__all__ = ["SonarrClient"]
