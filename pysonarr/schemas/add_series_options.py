@@ -1,5 +1,5 @@
 """
-Pysonarr Add Series Option Schema
+Pysonarr Add Series Options Schema
 """
 
 from dataclasses import dataclass
@@ -8,9 +8,9 @@ from pysonarr.enums.monitor_types import MonitorTypes
 
 
 @dataclass
-class AddSeriesOption:
+class AddSeriesOptions:
     """
-    Pysonarr Add Series Option Schema
+    Pysonarr Add Series Options Schema
     """
 
     ignore_episodes_with_files: bool

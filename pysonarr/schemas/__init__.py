@@ -2,7 +2,7 @@
 pysonarr.schemas
 """
 
-from .add_series_option import AddSeriesOption
+from .add_series_options import AddSeriesOptions
 from .alternate_title_resource import AlternateTitleResource
 from .auto_tagging_resource import AutoTaggingResource
 from .auto_tagging_specification_schema import AutoTaggingSpecificationSchema
@@ -12,7 +12,7 @@ from .field import Field
 from .select_option import SelectOption
 
 __all__ = [
-    "AddSeriesOption",
+    "AddSeriesOptions",
     "AlternateTitleResource",
     "AutoTaggingResource",
     "AutoTaggingSpecificationSchema",
